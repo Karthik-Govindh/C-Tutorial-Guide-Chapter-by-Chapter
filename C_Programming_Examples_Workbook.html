@@ -1,0 +1,951 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>C Programming Examples: Problem Solving Syllabus</title>
+<style>
+    @page {
+        size: A4;
+        margin: 20mm 15mm;
+        background-color: #f8f9fa;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f9fa;
+        color: #343a40;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        background-color: #0d6efd;
+        color: #ffffff;
+        padding: 35px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 35px;
+    }
+    h1 {
+        margin: 0 0 12px 0;
+        font-size: 26pt;
+        letter-spacing: 0.5px;
+    }
+    .subtitle {
+        font-size: 13pt;
+        opacity: 0.9;
+        margin: 0;
+    }
+    .intro {
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        border-left: 6px solid #198754;
+        font-size: 11.5pt;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    .chapter {
+        background-color: #ffffff;
+        padding: 25px 30px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    .chapter h2 {
+        color: #0d6efd;
+        border-bottom: 2px solid #dee2e6;
+        padding-bottom: 10px;
+        margin-top: 0;
+        font-size: 17pt;
+        page-break-after: avoid;
+    }
+    .video-list {
+        margin-top: 15px;
+    }
+    .video-item {
+        margin-bottom: 15px;
+        padding: 15px;
+        background-color: #f8f9fa;
+        border-left: 4px solid #0dcaf0;
+        border-radius: 0 8px 8px 0;
+        page-break-inside: avoid;
+    }
+    .video-title {
+        font-weight: 600;
+        font-size: 11.5pt;
+        color: #212529;
+        margin-bottom: 6px;
+    }
+    .video-link {
+        font-size: 10pt;
+        color: #0d6efd;
+        text-decoration: none;
+        word-break: break-all;
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1>C Programming Examples Library</h1>
+        <p class="subtitle">Structured Problem Solving & Algorithmic Practice</p>
+    </div>
+    
+    <div class="intro">
+        <p><strong>Welcome to your C Programming Examples Workbook!</strong></p>
+        <p>This document organizes 200 practical C programming exercises into sequential, logical chapters. Working through these examples will elevate your practical coding skills—moving from fundamental arrays and basic logic, all the way to advanced recursion, 2D matrix operations, and dynamic memory tricks.</p>
+        <p><em>Click on any of the links below to navigate directly to the specific video example and solution.</em></p>
+    </div>
+<div class="chapter">
+  <h2>Chapter 1: Fundamental Array & Math Examples</h2>
+  <div class="video-list">
+    <div class="video-item">
+      <div class="video-title">Find the Minimum Number in an Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=sepK5w4Uep0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=1&pp=iAQB">https://www.youtube.com/watch?v=sepK5w4Uep0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=1&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find the Maximum Number in an Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=VnsmgHEZiLA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=2&pp=iAQB">https://www.youtube.com/watch?v=VnsmgHEZiLA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=2&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count the Occurrences of a Value in an Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Im1xqbJmZD8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=3&pp=iAQB">https://www.youtube.com/watch?v=Im1xqbJmZD8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=3&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Reverse An Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=7EfA0cwZGC0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=4&pp=iAQB">https://www.youtube.com/watch?v=7EfA0cwZGC0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=4&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Check If A String Is A Palindrome | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=XMMmvv4wZtQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=5&pp=iAQB">https://www.youtube.com/watch?v=XMMmvv4wZtQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=5&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Sum the Values in an Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=AhAz6cOl_DA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=6&pp=iAQB">https://www.youtube.com/watch?v=AhAz6cOl_DA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=6&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Compute the Average of an Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=gCv170-cN_s&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=7&pp=iAQB">https://www.youtube.com/watch?v=gCv170-cN_s&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=7&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Convert Celsius to Fahrenheit | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=LM18CB0xEIc&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=8&pp=iAQB">https://www.youtube.com/watch?v=LM18CB0xEIc&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=8&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Computing the Fibonacci Sequence | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=07rT0g_N5eY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=9&pp=iAQB">https://www.youtube.com/watch?v=07rT0g_N5eY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=9&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Counting the Vowels in a String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=heJ56FVFrZ4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=10&pp=iAQB">https://www.youtube.com/watch?v=heJ56FVFrZ4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=10&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">String append (i.e. concatenation) with dynamic memory allocation | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=_7GPPMQvO84&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=11&pp=iAQB">https://www.youtube.com/watch?v=_7GPPMQvO84&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=11&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Dice roll simulator | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=4FCxXG44SFM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=12&pp=iAQB">https://www.youtube.com/watch?v=4FCxXG44SFM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=12&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Flip a string's lowercase characters to uppercase and vice versa | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=rso22UR1b2I&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=13&pp=iAQB">https://www.youtube.com/watch?v=rso22UR1b2I&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=13&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Create a copy of an array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=aCR3SlfZTwg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=14&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=aCR3SlfZTwg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=14&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Determine if a year is a leap year | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=gAC1FGQitdo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=15&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=gAC1FGQitdo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=15&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">hello world | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=WXY-r9s0_Rg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=16&pp=iAQB">https://www.youtube.com/watch?v=WXY-r9s0_Rg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=16&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Vector Addition | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Q075ZhB_8Eo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=17&pp=iAQB">https://www.youtube.com/watch?v=Q075ZhB_8Eo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=17&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Dot Product | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=cJybIb_JvuY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=18&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=cJybIb_JvuY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=18&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+  </div>
+</div>
+<div class="chapter">
+  <h2>Chapter 2: Array Rotations & String Foundations</h2>
+  <div class="video-list">
+    <div class="video-item">
+      <div class="video-title">Counting Occurrences Of A Word In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Zydf9p1VOGU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=19&pp=iAQB">https://www.youtube.com/watch?v=Zydf9p1VOGU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=19&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Removing all occurrences of a character from a string | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=OAMPGC032AQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=20&pp=iAQB">https://www.youtube.com/watch?v=OAMPGC032AQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=20&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Convert binary to decimal | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=jEgiZQLNfiE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=21&pp=iAQB">https://www.youtube.com/watch?v=jEgiZQLNfiE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=21&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Replace a character in a string with another character | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0OjJc-Qyd4E&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=22&pp=iAQB">https://www.youtube.com/watch?v=0OjJc-Qyd4E&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=22&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Infinite Input Buffer | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=qwM_c3gF2lw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=23&pp=iAQB">https://www.youtube.com/watch?v=qwM_c3gF2lw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=23&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Converting Kilometers To Miles | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=L5en1y4BBQg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=24&pp=iAQB">https://www.youtube.com/watch?v=L5en1y4BBQg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=24&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">String Format Validation | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Pe8LRt5bcaI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=25&pp=iAQB">https://www.youtube.com/watch?v=Pe8LRt5bcaI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=25&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Area of a Circle | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=YxDD_ImhELk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=26&pp=iAQB">https://www.youtube.com/watch?v=YxDD_ImhELk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=26&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Output a Triangle of Stars | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=LkmH8etAVWA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=27&pp=iAQB">https://www.youtube.com/watch?v=LkmH8etAVWA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=27&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Remove All Vowels From A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=40XRhfcUtaU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=28&pp=iAQB">https://www.youtube.com/watch?v=40XRhfcUtaU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=28&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Check If Arrays Are Disjoint | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=zaYk09uW-tg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=29&pp=iAQB">https://www.youtube.com/watch?v=zaYk09uW-tg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=29&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Rotate An Array Left | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=2Rsd5mphXnY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=30&pp=iAQB">https://www.youtube.com/watch?v=2Rsd5mphXnY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=30&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Rotate An Array Right | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=3_CFbQOSIBI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=31&pp=iAQB">https://www.youtube.com/watch?v=3_CFbQOSIBI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=31&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Merge Two Sorted Arrays | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=n1jgmsbCA6s&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=32&pp=iAQB">https://www.youtube.com/watch?v=n1jgmsbCA6s&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=32&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count Non-Repeating Array Elements | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=pX3H_0oHQvA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=33&pp=iAQB">https://www.youtube.com/watch?v=pX3H_0oHQvA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=33&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Manually Find The Length Of A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0EOKOlV8Dbg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=34&pp=iAQB">https://www.youtube.com/watch?v=0EOKOlV8Dbg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=34&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Program That Prints Its Own Source Code | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=m8uQ0cJKDM0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=35&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=m8uQ0cJKDM0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=35&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Bubble Sort | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=YqzNgaFQEh8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=36&pp=iAQB">https://www.youtube.com/watch?v=YqzNgaFQEh8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=36&pp=iAQB</a>
+    </div>
+  </div>
+</div>
+<div class="chapter">
+  <h2>Chapter 3: String Parsing & Character Analysis</h2>
+  <div class="video-list">
+    <div class="video-item">
+      <div class="video-title">Sum The First N Natural Numbers Using Recursion | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=6wucO5fbiQo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=37&pp=iAQB">https://www.youtube.com/watch?v=6wucO5fbiQo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=37&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Trim Leading Whitespace String Characters | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=f0BqwfVACKY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=38&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=f0BqwfVACKY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=38&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Remove Trailing Whitespace String Characters | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=3ME0l0trRsE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=39&pp=iAQB">https://www.youtube.com/watch?v=3ME0l0trRsE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=39&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Reverse The Words In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Jy5QILbHKVA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=40&pp=iAQB">https://www.youtube.com/watch?v=Jy5QILbHKVA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=40&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count The Words In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=JpquiHExpfI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=41&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=JpquiHExpfI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=41&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find Length Of Longest Word In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=6o8aZzU7TGs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=42&pp=iAQB">https://www.youtube.com/watch?v=6o8aZzU7TGs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=42&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find Length Of Smallest Word In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=AQ_rsjONc7o&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=43&pp=iAQB">https://www.youtube.com/watch?v=AQ_rsjONc7o&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=43&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Insertion Sort | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Tz7vBodZqo8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=44&pp=iAQB">https://www.youtube.com/watch?v=Tz7vBodZqo8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=44&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Print Unique Elements Of An Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=RHmURwB-z1I&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=45&pp=iAQB">https://www.youtube.com/watch?v=RHmURwB-z1I&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=45&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Compute Standard Deviation | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=B-xEyhbz0-U&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=46&pp=iAQB">https://www.youtube.com/watch?v=B-xEyhbz0-U&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=46&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count The Punctuation Marks In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=7SRd_gZDqCE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=47&pp=iAQB">https://www.youtube.com/watch?v=7SRd_gZDqCE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=47&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Check If Words Are Anagrams | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=39iOnAzIzfQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=48&pp=iAQB">https://www.youtube.com/watch?v=39iOnAzIzfQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=48&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Use Recursion To Print String In Reverse | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=iWQ5rGWmkXw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=49&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=iWQ5rGWmkXw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=49&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Print First Unique Character In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=FanAYSSHABU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=50&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=FanAYSSHABU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=50&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Print First Repeating Character In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=vSIVnsYQrz0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=51&pp=iAQB">https://www.youtube.com/watch?v=vSIVnsYQrz0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=51&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count Occurrences Of Each Character In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=PdiLIj943NY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=52&pp=iAQB">https://www.youtube.com/watch?v=PdiLIj943NY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=52&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Print A String Until The First Newline Character | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=nixt_K8kgos&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=53&pp=iAQB">https://www.youtube.com/watch?v=nixt_K8kgos&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=53&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Minimum Occurring Character In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=euzKnNGLs8U&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=54&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=euzKnNGLs8U&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=54&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Maximum Occurring Character In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=KFl8iyx66fI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=55&pp=iAQB">https://www.youtube.com/watch?v=KFl8iyx66fI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=55&pp=iAQB</a>
+    </div>
+  </div>
+</div>
+<div class="chapter">
+  <h2>Chapter 4: Games, Logic, and Basic File I/O</h2>
+  <div class="video-list">
+    <div class="video-item">
+      <div class="video-title">Verify Password Requirements | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=jBx_COn2ptE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=56&pp=iAQB">https://www.youtube.com/watch?v=jBx_COn2ptE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=56&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Number Guessing Game | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=41NmcgA1HF0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=57&pp=iAQB">https://www.youtube.com/watch?v=41NmcgA1HF0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=57&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Create A Menu Using A Switch Statement | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=eStBZCSL-gQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=58&pp=iAQB">https://www.youtube.com/watch?v=eStBZCSL-gQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=58&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Coin Toss Simulator | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=1hUF8IAP-P8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=59&pp=iAQB">https://www.youtube.com/watch?v=1hUF8IAP-P8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=59&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Remove a character from a string at a specified position | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=6nUr72r9sDI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=60&pp=iAQB">https://www.youtube.com/watch?v=6nUr72r9sDI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=60&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Make All String Letters Lowercase | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=_8iq-iTh-Ns&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=61&pp=iAQB">https://www.youtube.com/watch?v=_8iq-iTh-Ns&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=61&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Binary Search Algorithm | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Uuyv88Tn9iU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=62&pp=iAQB">https://www.youtube.com/watch?v=Uuyv88Tn9iU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=62&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Fizz Buzz Problem | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=qeAwnZ5xQAU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=63&pp=iAQB">https://www.youtube.com/watch?v=qeAwnZ5xQAU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=63&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Second Highest Number In An Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=k__ZO0e1OHQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=64&pp=iAQB">https://www.youtube.com/watch?v=k__ZO0e1OHQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=64&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Second Lowest Number In An Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Fczwe3h8oJM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=65&pp=iAQB">https://www.youtube.com/watch?v=Fczwe3h8oJM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=65&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count The Letters In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=JXL8NYoVv6U&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=66&pp=iAQB">https://www.youtube.com/watch?v=JXL8NYoVv6U&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=66&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count The Digits In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=epqWMKa--xk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=67&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=epqWMKa--xk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=67&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Read A File And Display Its Contents | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=fLPqn026DaE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=68&pp=iAQB">https://www.youtube.com/watch?v=fLPqn026DaE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=68&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Write Lines Of User Input To A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=HEEzZ7fA9Oo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=69&pp=iAQB">https://www.youtube.com/watch?v=HEEzZ7fA9Oo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=69&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Largest Number In A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=FkbpSvdE6Z8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=70&pp=iAQB">https://www.youtube.com/watch?v=FkbpSvdE6Z8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=70&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Compute Average Of Numbers In A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=e6MxeC7htSE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=71&pp=iAQB">https://www.youtube.com/watch?v=e6MxeC7htSE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=71&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Lottery Number Generator | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=iIqjvB22APU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=72&pp=iAQB">https://www.youtube.com/watch?v=iIqjvB22APU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=72&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Selection Sort | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=YepJ7fDmyjI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=73&pp=iAQB">https://www.youtube.com/watch?v=YepJ7fDmyjI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=73&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Append Text To A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=ABYpwVjuDN0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=74&pp=iAQB">https://www.youtube.com/watch?v=ABYpwVjuDN0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=74&pp=iAQB</a>
+    </div>
+  </div>
+</div>
+<div class="chapter">
+  <h2>Chapter 5: Sorting, Array Logic, and Number Operations</h2>
+  <div class="video-list">
+    <div class="video-item">
+      <div class="video-title">Using qsort() To Sort An Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=rHoOWG6Ihs4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=75&pp=iAQB">https://www.youtube.com/watch?v=rHoOWG6Ihs4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=75&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Copy A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=ceODxfZWZIo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=76&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=ceODxfZWZIo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=76&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Delete A Specific Line From A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=NRA46yNC_P0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=77&pp=iAQB">https://www.youtube.com/watch?v=NRA46yNC_P0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=77&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Merge Contents Of Two Files Into A Third File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=SJ7oEgpTdDE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=78&pp=iAQB">https://www.youtube.com/watch?v=SJ7oEgpTdDE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=78&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Split A String At An Index Into Two Strings | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=ZVxTouF8WTU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=79&pp=iAQB">https://www.youtube.com/watch?v=ZVxTouF8WTU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=79&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Rock Paper Scissors Game | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=e8NZrbhKXDs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=80&pp=iAQB">https://www.youtube.com/watch?v=e8NZrbhKXDs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=80&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Coding Trick To Initialize An Array With Include Directive And External File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=_rr2AgzB8RI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=81&pp=iAQB">https://www.youtube.com/watch?v=_rr2AgzB8RI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=81&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">How To "Return" More Than One Value From A Function | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=R8IogBSLXV0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=82&pp=iAQB">https://www.youtube.com/watch?v=R8IogBSLXV0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=82&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Word Scramble Game | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=loa5eBDONHw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=83&pp=iAQB">https://www.youtube.com/watch?v=loa5eBDONHw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=83&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Magic 8-Ball Game | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=2aJzGL_cKzY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=84&pp=iAQB">https://www.youtube.com/watch?v=2aJzGL_cKzY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=84&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Sum The Digits Of A Number | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=_fHTUj6BzY0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=85&pp=iAQB">https://www.youtube.com/watch?v=_fHTUj6BzY0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=85&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Sorting An Array Of Strings | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=LZNxRSoEG2M&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=86&pp=iAQB">https://www.youtube.com/watch?v=LZNxRSoEG2M&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=86&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Sort Three Numbers | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=jNom4U0B3Y0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=87&pp=iAQB">https://www.youtube.com/watch?v=jNom4U0B3Y0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=87&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Average Of Groups Of Numbers In A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=kMAg6diYCI0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=88&pp=iAQB">https://www.youtube.com/watch?v=kMAg6diYCI0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=88&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">How To Create A Substring Function | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=lEvpLI50MSU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=89&pp=iAQB">https://www.youtube.com/watch?v=lEvpLI50MSU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=89&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Check If A String Ends With Another String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=N71-P0i4qPY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=90&pp=iAQB">https://www.youtube.com/watch?v=N71-P0i4qPY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=90&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Check If A String Starts With Another String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=vWuxWxGVMC8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=91&pp=iAQB">https://www.youtube.com/watch?v=vWuxWxGVMC8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=91&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Check If An Integer Is Even Or Odd | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=6Zd69FQpc3A&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=92&pp=iAQB">https://www.youtube.com/watch?v=6Zd69FQpc3A&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=92&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Reverse A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=PtSHcou0WIs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=93&pp=iAQB">https://www.youtube.com/watch?v=PtSHcou0WIs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=93&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Return Multiple Dynamically Allocated Arrays From A Function | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=qhJLVxXMBE8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=94&pp=iAQB">https://www.youtube.com/watch?v=qhJLVxXMBE8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=94&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Move All Zeros In An Array To The End | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=CK7Xue5Y9Kw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=95&pp=iAQB">https://www.youtube.com/watch?v=CK7Xue5Y9Kw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=95&pp=iAQB</a>
+    </div>
+  </div>
+</div>
+<div class="chapter">
+  <h2>Chapter 6: 2D Arrays, Matrices, and Multi-dimensional Logic</h2>
+  <div class="video-list">
+    <div class="video-item">
+      <div class="video-title">Split Even And Odd Values Of An Array Into Two Arrays | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=9r3WX0mDG4o&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=96&pp=iAQB">https://www.youtube.com/watch?v=9r3WX0mDG4o&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=96&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Compute Volume Of A Sphere | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=UL12Lumo1AM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=97&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=UL12Lumo1AM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=97&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count The Occurrences Of A Character In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=vnGgSU28hU8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=98&pp=iAQB">https://www.youtube.com/watch?v=vnGgSU28hU8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=98&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Delete All File Lines That Match A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Zn_YyKpE2AE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=99&pp=iAQB">https://www.youtube.com/watch?v=Zn_YyKpE2AE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=99&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Initialize An Array With User Input | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=5nyMb7hJ7Xs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=100&pp=iAQB">https://www.youtube.com/watch?v=5nyMb7hJ7Xs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=100&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Check If A String Is A Substring Of Another String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=tx37dJZTfMM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=101&pp=iAQB">https://www.youtube.com/watch?v=tx37dJZTfMM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=101&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Fill An Array With Random Numbers | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=5OFLit1Zf-Q&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=102&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=5OFLit1Zf-Q&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=102&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">How To Generate Random Double Numbers | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=3jnrbtoWgDo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=103&pp=iAQB">https://www.youtube.com/watch?v=3jnrbtoWgDo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=103&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Replace All Occurrences Of A Value In An Array With Another Value | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=kQuHxfPS9xE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=104&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=kQuHxfPS9xE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=104&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Savings Calculator With A Yearly Investment Returns Table | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=DJq9SjMGSys&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=105&pp=iAQB">https://www.youtube.com/watch?v=DJq9SjMGSys&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=105&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Create A Multiplication Table | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=lupu1oeS7JE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=106&pp=iAQB">https://www.youtube.com/watch?v=lupu1oeS7JE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=106&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Reverse An Integer Number | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=lXr6KKha-ig&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=107&pp=iAQB">https://www.youtube.com/watch?v=lXr6KKha-ig&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=107&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Using Recursion To Compute The Average Of An Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=i0pOPx5Xltw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=108&pp=iAQB">https://www.youtube.com/watch?v=i0pOPx5Xltw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=108&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Initialize A 2D Array With User Input | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=p8-DGGL1Rk0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=109&pp=iAQB">https://www.youtube.com/watch?v=p8-DGGL1Rk0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=109&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">How To Check For Matrix Equality | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=c8-Bl50vjHk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=110&pp=iAQB">https://www.youtube.com/watch?v=c8-Bl50vjHk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=110&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Matrix Addition | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Jtn_NXLvbAQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=111&pp=iAQB">https://www.youtube.com/watch?v=Jtn_NXLvbAQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=111&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Matrix Subtraction | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=rPxe7t3fmeo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=112&pp=iAQB">https://www.youtube.com/watch?v=rPxe7t3fmeo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=112&pp=iAQB</a>
+    </div>
+  </div>
+</div>
+<div class="chapter">
+  <h2>Chapter 7: String Replacements, File Edits & Structs</h2>
+  <div class="video-list">
+    <div class="video-item">
+      <div class="video-title">Check If A Number Is An Armstrong Number | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Hb0sQVEnxCg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=113&pp=iAQB">https://www.youtube.com/watch?v=Hb0sQVEnxCg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=113&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Transpose Of A Matrix | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=5OpitQe0o5k&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=114&pp=iAQB">https://www.youtube.com/watch?v=5OpitQe0o5k&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=114&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Fill A 2D Array With Random Values | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=6xRSNSja1mE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=115&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=6xRSNSja1mE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=115&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Print Numbers From 00-99 In A 10x10 Grid | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=_2MAktbQO5o&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=116&pp=iAQB">https://www.youtube.com/watch?v=_2MAktbQO5o&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=116&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Matrix Multiplication | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=G_WjTIBTMhY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=117&pp=iAQB">https://www.youtube.com/watch?v=G_WjTIBTMhY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=117&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Swap Two Rows In A 2D Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=WK2VR6Br2AU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=118&pp=iAQB">https://www.youtube.com/watch?v=WK2VR6Br2AU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=118&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Swap Two Columns In A 2D Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=-8esr14bCCI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=119&pp=iAQB">https://www.youtube.com/watch?v=-8esr14bCCI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=119&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Check If A Value Is In An Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=5mIvuE4ugOg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=120&pp=iAQB">https://www.youtube.com/watch?v=5mIvuE4ugOg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=120&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Quicksort Algorithm Implementation | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0jDiBM68NGU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=121&pp=iAQB">https://www.youtube.com/watch?v=0jDiBM68NGU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=121&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Print A Christmas Tree | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0niA5Wzhwpg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=122&pp=iAQB">https://www.youtube.com/watch?v=0niA5Wzhwpg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=122&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Shuffle An Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=7OIZ_W75lAM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=123&pp=iAQB">https://www.youtube.com/watch?v=7OIZ_W75lAM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=123&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Read A Specific Line From A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=w0mgn6OLKUs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=124&pp=iAQB">https://www.youtube.com/watch?v=w0mgn6OLKUs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=124&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count The Number Of Lines In A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=AAF207cxbXk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=125&pp=iAQB">https://www.youtube.com/watch?v=AAF207cxbXk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=125&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Merge Sort | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=LeWuki7AQLo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=126&pp=iAQB">https://www.youtube.com/watch?v=LeWuki7AQLo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=126&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Set Data Structure And Operations | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=RVqdK6WAjUI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=127&pp=iAQB">https://www.youtube.com/watch?v=RVqdK6WAjUI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=127&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Array Index Coding Trick | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=9A5YDGSQy9o&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=128&pp=iAQB">https://www.youtube.com/watch?v=9A5YDGSQy9o&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=128&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Technique To Optionally Activate Debug Output Code | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=5a4jsVMfjlg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=129&pp=iAQB">https://www.youtube.com/watch?v=5a4jsVMfjlg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=129&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Delete All Array Elements That Match A User Input Value | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=1uf75EJsveU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=130&pp=iAQB">https://www.youtube.com/watch?v=1uf75EJsveU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=130&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Minimum Distance Between Two Different Numbers In An Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=cDxIGjnKsS8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=131&pp=iAQB">https://www.youtube.com/watch?v=cDxIGjnKsS8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=131&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Replace All Occurrences Of A Substring In A String With Another Substring | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=tGgl6EMZxLU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=132&pp=iAQB">https://www.youtube.com/watch?v=tGgl6EMZxLU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=132&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Delete All Occurrences Of A Substring From A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=p6uqGop26es&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=133&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=p6uqGop26es&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=133&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+  </div>
+</div>
+<div class="chapter">
+  <h2>Chapter 8: Data Structures, Recursion, and Binary Files</h2>
+  <div class="video-list">
+    <div class="video-item">
+      <div class="video-title">Swap Two Variables Without A Temporary Variable (XOR Swap Algorithm) | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=DExMskdAPO4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=134&pp=iAQB">https://www.youtube.com/watch?v=DExMskdAPO4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=134&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Replace A Specific Line In A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=JKR0S84xLJ4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=135&pp=iAQB">https://www.youtube.com/watch?v=JKR0S84xLJ4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=135&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find And Print The Longest Word In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=vpdraEnrFnU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=136&pp=iAQB">https://www.youtube.com/watch?v=vpdraEnrFnU&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=136&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Share A Global Variable Across Multiple Files By Using extern | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Wqm1tSzmqkY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=137&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=Wqm1tSzmqkY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=137&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Write To A Specific Line Of A File And Shift Down The Remaining Lines | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=CskiW4kd6Kk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=138&pp=iAQB">https://www.youtube.com/watch?v=CskiW4kd6Kk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=138&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Dynamically Allocate Memory For An Array Of Strings | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=4_2BEgOFd0E&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=139&pp=iAQB">https://www.youtube.com/watch?v=4_2BEgOFd0E&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=139&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Join Strings Function | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=zuKqVTbIXOI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=140&pp=iAQB">https://www.youtube.com/watch?v=zuKqVTbIXOI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=140&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Convert Decimal Number To Binary Number | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=DSZ4pNCoYZY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=141&pp=iAQB">https://www.youtube.com/watch?v=DSZ4pNCoYZY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=141&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Split Strings Function | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Vp6OELK4gmo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=142&pp=iAQB">https://www.youtube.com/watch?v=Vp6OELK4gmo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=142&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Check If A String Is A Rotation Of Another String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=4-KDj-vVk2E&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=143&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=4-KDj-vVk2E&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=143&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">A Better Seed For Random Number Generation Than The Current Time | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=zHZx9ByTo2s&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=144&pp=iAQB">https://www.youtube.com/watch?v=zHZx9ByTo2s&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=144&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Check If A Number Is Prime | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=lAqH2dt7g5I&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=145&pp=iAQB">https://www.youtube.com/watch?v=lAqH2dt7g5I&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=145&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Advanced Integer Input Validation | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=W3dtyZr8rcY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=146&pp=iAQB">https://www.youtube.com/watch?v=W3dtyZr8rcY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=146&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Print A Heart | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=N5D5tGTURpk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=147&pp=iAQB">https://www.youtube.com/watch?v=N5D5tGTURpk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=147&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">How To Safely Handle realloc() Failure | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=skqCnhhA0ZY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=148&pp=iAQB">https://www.youtube.com/watch?v=skqCnhhA0ZY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=148&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Reverse A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=q6e6H2Ogsh0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=149&pp=iAQB">https://www.youtube.com/watch?v=q6e6H2Ogsh0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=149&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Stack Data Structure And Operations | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Flk5yrlx5Qo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=150&pp=iAQB">https://www.youtube.com/watch?v=Flk5yrlx5Qo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=150&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find And Print The Smallest Word In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=viREXI8tvNc&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=151&pp=iAQB">https://www.youtube.com/watch?v=viREXI8tvNc&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=151&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Read And Write An Array Of Structs To A Binary File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0SkdAoVzWpk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=152&pp=iAQB">https://www.youtube.com/watch?v=0SkdAoVzWpk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=152&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Create Your Own strcpy() String Copy Function | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=ct5J8pm_33g&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=153&pp=iAQB">https://www.youtube.com/watch?v=ct5J8pm_33g&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=153&pp=iAQB</a>
+    </div>
+  </div>
+</div>
+<div class="chapter">
+  <h2>Chapter 9: Directories, CSV Parsing, and Advanced Strings</h2>
+  <div class="video-list">
+    <div class="video-item">
+      <div class="video-title">Create Your Own memcpy() Memory Copy Function | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=PThPm24wGEo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=154&pp=iAQB">https://www.youtube.com/watch?v=PThPm24wGEo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=154&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Read Char From File Portability Bugs + Fix | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Zd5OThnCZ7w&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=155&pp=iAQB">https://www.youtube.com/watch?v=Zd5OThnCZ7w&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=155&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Index Of K In A Sorted Array OR Where It Belongs To Keep It Sorted | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=5k3t4uaDU30&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=156&pp=iAQB">https://www.youtube.com/watch?v=5k3t4uaDU30&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=156&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Remove All Occurrences Of A Char From A File (Without Using A Temp File) | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Lie-jO2cpSY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=157&pp=iAQB">https://www.youtube.com/watch?v=Lie-jO2cpSY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=157&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Read All File Contents Into A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=CzAgM5bez-g&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=158&pp=iAQB">https://www.youtube.com/watch?v=CzAgM5bez-g&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=158&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Merge Two Sorted Arrays Using Recursion | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=fzW-qP4JdVI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=159&pp=iAQB">https://www.youtube.com/watch?v=fzW-qP4JdVI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=159&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Calculate String Length Using Recursion | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=g_gganqwepw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=160&pp=iAQB">https://www.youtube.com/watch?v=g_gganqwepw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=160&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Delete All Lines From A File That Contain A Char From A Group Of Chars | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=tDAxTQFZB28&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=161&pp=iAQB">https://www.youtube.com/watch?v=tDAxTQFZB28&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=161&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count The Vowels In A String Using Recursion | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0dXJKOeqGGA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=162&pp=iAQB">https://www.youtube.com/watch?v=0dXJKOeqGGA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=162&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">List All Files And Directories In A Directory (POSIX Library) | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0pjtn6HGPVI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=163&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=0pjtn6HGPVI&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=163&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Read CSV File Data Into An Array Of Structs | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=rbVt5v8NNe8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=164&pp=iAQB">https://www.youtube.com/watch?v=rbVt5v8NNe8&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=164&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Remove Trailing Newline Character From fgets() Input | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0UJX96_ZpVE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=165&pp=iAQB">https://www.youtube.com/watch?v=0UJX96_ZpVE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=165&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Write An Array Of Structs To A CSV File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=7ZFgphYJvUA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=166&pp=iAQB">https://www.youtube.com/watch?v=7ZFgphYJvUA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=166&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Read And Store Each Line Of A File Into An Array Of Strings | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=X-1qodkHCHo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=167&pp=iAQB">https://www.youtube.com/watch?v=X-1qodkHCHo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=167&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Create Your Own tolower() Function | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=fsoohJiC4r4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=168&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=fsoohJiC4r4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=168&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Create Your Own strspn() Function | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=oMXhxEpznoc&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=169&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=oMXhxEpznoc&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=169&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Remove A Directory Using _rmdir() On Windows | C Programming Tutorial</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=7g_w-cxgZB4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=170&pp=iAQB">https://www.youtube.com/watch?v=7g_w-cxgZB4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=170&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Remove Duplicate Array Elements | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=vJLt_VG8bqA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=171&pp=iAQB">https://www.youtube.com/watch?v=vJLt_VG8bqA&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=171&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Third Angle Of A Triangle | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=wZ0BxDNQTCw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=172&pp=iAQB">https://www.youtube.com/watch?v=wZ0BxDNQTCw&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=172&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Add Two Numbers From User Input | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=1F8F4Ma1btM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=173&pp=iAQB">https://www.youtube.com/watch?v=1F8F4Ma1btM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=173&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count The Number Of Words And Characters In A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=H-dehw4nLVM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=174&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=H-dehw4nLVM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=174&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Compute The Product Of All Array Elements | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0HDvRIUodcg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=175&pp=iAQB">https://www.youtube.com/watch?v=0HDvRIUodcg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=175&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Calculate The Litres Of Paint Required To Paint A Fence | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=lxAReU_RKSo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=176&pp=iAQB">https://www.youtube.com/watch?v=lxAReU_RKSo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=176&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Random Password Generator | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=laIQbFLznRo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=177&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=laIQbFLznRo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=177&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+  </div>
+</div>
+<div class="chapter">
+  <h2>Chapter 10: Dynamic Memory, Advanced Math, and Recursion Deep-Dive</h2>
+  <div class="video-list">
+    <div class="video-item">
+      <div class="video-title">Add Line Numbers To A File | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=MbDwut1b1hE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=178&pp=iAQB">https://www.youtube.com/watch?v=MbDwut1b1hE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=178&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Fill An Array With Unique Random Numbers | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=wnjYD_euSJQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=179&pp=iAQB">https://www.youtube.com/watch?v=wnjYD_euSJQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=179&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Frequency Of Each Letter In A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=1OZMcC0euic&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=180&pp=iAQB">https://www.youtube.com/watch?v=1OZMcC0euic&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=180&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Read All File Contents Into A Dynamically Allocated String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Oa_ji3dDFew&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=181&pp=iAQB">https://www.youtube.com/watch?v=Oa_ji3dDFew&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=181&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Store An Unknown "Infinite" Amount Of Numbers From User Input Into A Buffer | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=27KzMEnwsEM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=182&pp=iAQB">https://www.youtube.com/watch?v=27KzMEnwsEM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=182&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Shuffle A 2D Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=ByLrbQibG9g&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=183&pp=iAQB">https://www.youtube.com/watch?v=ByLrbQibG9g&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=183&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Round A Double To A Specific Number Of Decimal Places | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=Oq2IYFiq-AM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=184&pp=iAQB">https://www.youtube.com/watch?v=Oq2IYFiq-AM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=184&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Create Your Own strchr() Function | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=nxCnKVMGAFs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=185&pp=iAQB">https://www.youtube.com/watch?v=nxCnKVMGAFs&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=185&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Area Of A Rectangle Calculated Using User Input Values | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=6FaWbQAwpDY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=186&pp=iAQB">https://www.youtube.com/watch?v=6FaWbQAwpDY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=186&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Area Of Triangle Calculated Using User Input Values | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0JMObBs9xWQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=187&pp=iAQB">https://www.youtube.com/watch?v=0JMObBs9xWQ&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=187&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Print An Array In Reverse | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=CoecB74aSV0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=188&pp=iAQB">https://www.youtube.com/watch?v=CoecB74aSV0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=188&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Truncate A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=x0s2k06uYTg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=189&pp=iAQB">https://www.youtube.com/watch?v=x0s2k06uYTg&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=189&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Concatenate Two Arrays | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=2zH5TDg3LUo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=190&pp=iAQB">https://www.youtube.com/watch?v=2zH5TDg3LUo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=190&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Truncate A Dynamically Allocated String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=MiqLsSFrQP0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=191&pp=iAQB">https://www.youtube.com/watch?v=MiqLsSFrQP0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=191&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Remove Duplicate Characters From A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=4iaYlp-axac&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=192&pp=iAQB">https://www.youtube.com/watch?v=4iaYlp-axac&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=192&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Linear-Time Algorithm To Remove Duplicate Characters From A String | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=LQytHnI8z7o&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=193&pp=iAQB">https://www.youtube.com/watch?v=LQytHnI8z7o&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=193&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Perimeter Of A Rectangle Calculated Using User Input Values | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=50qJ3bNm_S0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=194&pp=iAQB">https://www.youtube.com/watch?v=50qJ3bNm_S0&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=194&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Split An Array At A Specific Index | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=nrvLkjfsJx4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=195&pp=iAQB">https://www.youtube.com/watch?v=nrvLkjfsJx4&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=195&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Reverse An Array Using Recursion | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=YKoM4udWNKM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=196&pp=iAQB">https://www.youtube.com/watch?v=YKoM4udWNKM&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=196&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Convert The Vowels In A String To Uppercase | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=IV2kIss1DIk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=197&pp=iAQB0gcJCdMKAYcqIYzv">https://www.youtube.com/watch?v=IV2kIss1DIk&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=197&pp=iAQB0gcJCdMKAYcqIYzv</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Insert A Value At Random Indexes In A 2D Array | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=rzWq24bYuvo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=198&pp=iAQB">https://www.youtube.com/watch?v=rzWq24bYuvo&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=198&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Find The Two Array Elements Whose Sum Is Closest To Zero | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=3YFMiDk3TvE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=199&pp=iAQB">https://www.youtube.com/watch?v=3YFMiDk3TvE&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=199&pp=iAQB</a>
+    </div>
+    <div class="video-item">
+      <div class="video-title">Count The Occurrences Of A Character In A String Using Recursion | C Programming Example</div>
+      <a class="video-link" href="https://www.youtube.com/watch?v=0CyNbF_pcrY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=200&pp=iAQB">https://www.youtube.com/watch?v=0CyNbF_pcrY&list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90&index=200&pp=iAQB</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
